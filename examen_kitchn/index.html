@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles/bootstrap-grid.css">
+    <title>Kitchn</title>
+</head>
+<body>
+
+<header>
+    <section class="wrapper">
+        <img src="images/logo.png" id="logo"/>
+    </section>
+</header>
+
+<!-- verdelen in 7 gelijke delen ook via grid opgelost -->
+<nav class="wrapper">
+    <ul>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">Meal Planning</a></li>
+        <li><a href="#">Learn</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">People</a></li>
+        <li><a href="#">Holiday</a></li>
+        <li><a href="#">More</a></li>
+    </ul>
+</nav>
+
+<section id="main">
+    <div id="headerimage">
+        <div id="title">
+            <!-- title staat gecentreerd zowel horizontaal als verticaal in de image. toch als hij op 1 lijn staat -->
+            Better food examen web development
+        </div>
+    </div>
+
+    <!-- Met grid oplossen -->
+    <section id="recipes" class="wrapper content">
+        <header class="heading">
+            <h1>Recipes</h1>
+        </header>
+        <section>
+            <article class="recipebody">
+                <div class="recipekicker">Kitchn Love Letters</div>
+                <a href="#"><h2>This One-Pan Mushroom and Steak Recipe Is Calling Your Name</h2></a>
+                <div class="recipedek">Raise your hand if you're making this for dinner tonight!</div>
+                <div class="recipeinfo">
+                    <div class="recipeby">by Elizabeth Licata</div>
+                    <div class="recipetimestamp">May 3, 2019</div>
+                </div>
+            </article>
+
+            <img src="images/recipes/bbq.jpeg" class="respimg">
+
+
+            <article class="recipebody">
+                <div class="recipekicker">Next week's meal plan</div>
+                <a href="#"><h2>Recipe: Walnut & Black Bean Veggie Burgers</h2></a>
+                <div class="recipedek">The ingredients and technique that ensure success every time.</div>
+                <div class="recipeinfo">
+                    <div class="recipeby">by Kelly Foster</div>
+                    <div class="recipetimestamp">May 1, 2019</div>
+                </div>
+            </article>
+
+            <img src="images/recipes/burger.jpeg" class="respimg">
+
+            <article class="recipebody">
+                <div class="recipekicker">Kitchn Love Letters</div>
+                <a href="#"><h2>Next Week’s Meal Plan: A Week of Mediterranean Diet Dinners</h2></a>
+                <div class="recipedek">Welcome to Next Week’s Meal Plan! I want to help you find inspiration and ease
+                    some of the pain points that come with getting dinner on the table night after night, whether you’re
+                    cooking for one or a family of eight.
+                </div>
+                <div class="recipeinfo">
+                    <div class="recipeby">by Sheela Prakash</div>
+                    <div class="recipetimestamp">April 24, 2019</div>
+                </div>
+            </article>
+
+            <img src="images/recipes/mediterranean.png" class="respimg">
+        </section>
+
+    </section>
+
+    <!-- met bootstrap oplossen -->
+    <section id="recommended" class="wrapper content">
+        <header class="heading">
+            <h1>Recommended for you</h1>
+        </header>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="#"><img src="images/recommended/food1.jpg" class="respimg"/></a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="#"><img src="images/recommended/food2.jpg" class="respimg"/></a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="#"><img src="images/recommended/food3.jpg" class="respimg"/></a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="#"><img src="images/recommended/food4.jpg" class="respimg"/></a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="#"><img src="images/recommended/food5.jpg" class="respimg"/></a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="#"><img src="images/recommended/food6.jpg" class="respimg"/></a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="#"><img src="images/recommended/food7.jpg" class="respimg"/></a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="#"><img src="images/recommended/food8.jpg" class="respimg"/></a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="#"><img src="images/recommended/food9.jpg" class="respimg"/></a>
+            </div>
+        </div>
+    </section>
+
+</section>
+
+<!-- footer opgelost met floating met box-sizing: border-box -->
+<footer>
+    <section id="left">
+        EAT GOOD, FEEL GOOD
+    </section>
+    <section id="right">
+        Kitchn is &copy; 1994-2020
+    </section>
+</footer>
+
+
+</body>
+</html>

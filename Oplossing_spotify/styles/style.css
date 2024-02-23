@@ -1,0 +1,193 @@
+.popular-img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    color: #222326;
+    background-color: #1F2A38;
+}
+
+a {
+    color: #1DB954;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #43e27b;
+}
+
+.wrapper {
+    width: 85%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #000;
+    position: relative;
+}
+
+#logo {
+    height: 80px;
+    position: absolute;
+}
+
+.wrapper > nav {
+    text-align: right;
+}
+
+#navbar {
+    margin: 0;
+}
+
+#navbar > li {
+    list-style: none;
+    height: 80px;
+    display: inline-block;
+}
+
+#navbar > li > a {
+    color: white;
+    padding: 28px 17px;
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.5em;
+    display: block;
+}
+
+#promo {
+    background: url('../images/promo-red.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-color: rgb(255, 70, 51);
+}
+
+#promotext {
+    padding: 30px;
+    width: 50%;
+    color: #F8F8F8;
+}
+
+@media all and (min-width: 950px) {
+    #promotext {
+        margin-left: 8.3333%;
+        padding: 60px;
+    }
+
+}
+
+#promotext > h1 {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 4.5em;
+    line-height: 1;
+}
+
+#promo p {
+    font-size: 1.125em;
+    font-style: italic;
+}
+
+#menu {
+    float: left;
+    width: 25%;
+}
+
+aside .user-img {
+    width: 64px;
+    height: 64px;
+    margin: 30px auto;
+    display: block;
+}
+
+aside ul {
+    padding-left: 0;
+}
+
+aside ul li {
+    list-style: none;
+    border-top: 1px solid #3A3A3A;
+    border-bottom: 1px solid #3A3A3A;
+}
+
+aside ul a {
+    color: #C1C3C6;
+    display: block;
+    line-height: 1.5;
+    padding: 15px 15px 15px 25px;
+}
+
+aside a:hover {
+    color: white;
+}
+
+.active {
+    border-left: 5px solid #1DB954;
+}
+
+.active a {
+    color: white;
+    padding-left: 20px;
+}
+
+#content{
+    float: left;
+    width: 75%;
+    padding: 60px;
+    background-color: #F8F8F8;
+}
+
+#content h1 {
+    font-size: 1.6em;
+    margin: 50px 0 12px;
+    color: #1DB954;
+    font-weight: 400;
+    border-bottom: 1px solid #EFEFEF;
+    padding-bottom: 24px;
+
+}
+
+#main {
+    background-color: black;
+}
+
+.well {
+    padding: 40px;
+    margin-bottom: 10px;
+    background-color: #FFF;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+
+
+
+
+.mood {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #18202c;
+    padding: 50px 80px;
+    clear: both;
+}
+
+
+footer h2{
+    color: #F8F8F8;
+    margin: 20px 0;
+}
+
+
+
